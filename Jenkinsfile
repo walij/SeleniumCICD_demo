@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git url: 'https://github.com/akshatha1992/XQT-Project.git'
+                git url: 'https://github.com/walij/SeleniumCICD_Demo.git'
             }
         }
         stage ('Initital Setup') {
